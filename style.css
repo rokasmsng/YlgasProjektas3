@@ -1,0 +1,358 @@
+body {
+    background-color: darkslategrey;
+}
+.visas {
+    background-color: dimgrey;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 630px;
+    margin: auto;
+
+
+}
+header {
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 960px;
+    margin: auto;
+
+}
+.container1 {
+    display: grid;
+    width: 100%;
+    height: 98%;
+
+}
+.padding1 {
+    width: 96px;
+    height: 30px;
+    margin: 5px 5px 0 5px
+}
+.padding2 {
+    width: 96px;
+    height: 60px;
+    margin: 5px;
+}
+.padding3 {
+    width: 205px;
+    height: 60px;
+    margin: 5px;
+}
+.padding4 {
+    height: 60px;
+    margin: 5px;
+}
+.padding5 {
+    margin: 5px;
+    height: 210px;
+}
+.padding6 {
+    margin: 5px;
+}
+.footrr {
+    background-color: darkslategrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 960px;
+    height: 30px;
+    margin: auto;
+}
+footer {
+    width: 960px;
+    height: 90px;
+    margin: auto;
+    background-color: dimgrey;
+}
+#box1 {
+    background-color: red;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#box2 {
+    background-color: yellow;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+#box3 {
+    background-color: purple;
+    grid-column: 1/2;
+    grid-row: 4/6;
+}
+#box4 {
+    background-color: red;
+    grid-column: 1/2;
+    grid-row: 6/8;
+}
+#box5 {
+    background-color: khaki;
+    grid-column: 1/2;
+    grid-row: 8/10;
+}
+#box6 {
+    background-color: orange;
+    grid-column: 1/2;
+    grid-row: 10/12;
+}
+#box7 {
+    background: yellow;
+    grid-column: 1/2;
+    grid-row: 12/14;
+}
+#box8 {
+    background-color: crimson;
+    grid-column: 1/2;
+    grid-row: 14/16;
+}
+#box9 {
+    background-color: red;
+    grid-column: 1/2;
+    grid-row: 16/18;
+}
+#box10 {
+    background-color: wheat;
+    grid-column: 2/9;
+    grid-row: 1/4;
+    margin-bottom: 5px;
+    margin-right: 7px;
+}
+#box11 {
+    background-color: darkslategrey;
+    grid-column: 9/10;
+    grid-row: 1/2;
+}
+#box12 {
+    background-color: grey;
+    grid-column: 9/10;
+    grid-row: 2/4;
+}
+#box13 {
+    background-color: white;
+    grid-column:2/3 ;
+    grid-row: 4/6;
+}
+#box14 {
+    background-color: brown;
+    grid-column:2/3 ;
+    grid-row: 6/8;
+}
+#box15 {
+    background-color: rebeccapurple;
+    grid-column:2/3 ;
+    grid-row: 8/10;
+}
+#box16 {
+    background-color: red;
+    grid-column:2/3 ;
+    grid-row: 10/12;
+}
+#box17 {
+    background-color: olive;
+    grid-column:2/3 ;
+    grid-row: 12/14;
+}
+#box18 {
+    background-color: green;
+    grid-column:3/4 ;
+    grid-row: 4/6;
+}
+#box19 {
+    background-color: greenyellow;
+    grid-column:4/5 ;
+    grid-row: 4/6;
+}
+#box20 {
+    background-color: azure;
+    grid-column:5/6 ;
+    grid-row: 4/6;
+
+}
+#box21 {
+    background-color: bisque;
+    grid-column: 6/7;
+    grid-row: 4/6;
+
+}
+#box22 {
+    background-color: fuchsia;
+    grid-column:7/8 ;
+    grid-row: 4/6;
+
+}
+#box23 {
+    background-color: lightgoldenrodyellow;
+    grid-column:8/9 ;
+    grid-row: 4/6;
+
+}
+#box24 {
+    background-color: yellow;
+    grid-column:9/10 ;
+    grid-row: 6/8;
+
+}
+#box25 {
+    background-color: yellow;
+    grid-column: 3/4;
+    grid-row: 8/10;
+}
+#box26 {
+    background-color: blue;
+    grid-column:3/4 ;
+    grid-row: 10/12;
+
+}
+#box27 {
+    background-color: blueviolet;
+    grid-column:3/4 ;
+    grid-row: 12/14;
+}
+#box28 {
+    background-color: royalblue;
+    grid-column:4/7 ;
+    grid-row: 6/12;
+}
+#box29 {
+    background-color: red;
+    grid-column:3/4 ;
+    grid-row: 6/8;
+}
+#box30 {
+    background-color: purple;
+    grid-column: 9/10;
+    grid-row: 4/6;
+}
+#box31 {
+    background-color: cornflowerblue;
+    grid-column: 7/8 ;
+    grid-row: 6/8;
+}
+#box32 {
+    background-color: peachpuff;
+    grid-column:8/9 ;
+    grid-row: 6/8;
+}
+#box33 {
+    background-color: peru;
+    grid-column:7/8 ;
+    grid-row: 8/10;
+}
+#box34 {
+    background-color: lawngreen;
+    grid-column:8/9;
+    grid-row: 8/10;
+}
+#box35 {
+    background-color: blue;
+    grid-column:9/10 ;
+    grid-row: 8/10;
+}
+#box36 {
+    background-color: coral;
+    grid-column:7/8 ;
+    grid-row: 10/12;
+}
+#box37 {
+    background-color: crimson;
+    grid-column:8/9 ;
+    grid-row: 10/12;
+}
+#box38 {
+    background-color: wheat;
+    grid-column:9/10 ;
+    grid-row: 10/12;
+}
+#box39 {
+    background-color: salmon;
+    grid-column:4/5 ;
+    grid-row: 12/14;
+}
+#box40 {
+    background-color: fuchsia;
+    grid-column:5/6 ;
+    grid-row: 12/14;
+}
+#box41 {
+    background-color: yellow;
+    grid-column:6/7 ;
+    grid-row: 12/14;
+}
+#box42 {
+    background-color: blue;
+    grid-column:7/8 ;
+    grid-row: 12/14;
+}
+#box43 {
+    background-color: navajowhite;
+    grid-column:8/9 ;
+    grid-row: 12/14;
+}
+#box44 {
+    background-color: grey;
+    grid-column:9/10 ;
+    grid-row: 12/14;
+}
+#box45 {
+    background-color: grey;
+    grid-column:2/3 ;
+    grid-row: 16/18;
+}
+#box46 {
+    background-color: grey;
+    grid-column:3/4 ;
+    grid-row: 16/18;
+}
+#box47 {
+    background-color: darkblue;
+    grid-column:4/5 ;
+    grid-row: 16/18;
+}
+#box48 {
+    background-color: darkblue;
+    grid-column:5/6 ;
+    grid-row: 16/18;
+}
+#box49 {
+    background-color: darkmagenta;
+    grid-column:6/7 ;
+    grid-row: 16/18;
+}
+#box50 {
+    background-color: darkred;
+    grid-column:7/8 ;
+    grid-row: 16/18;
+}
+#box51 {
+    background-color: saddlebrown;
+    grid-column:8/9 ;
+    grid-row: 16/18;
+}
+#box52 {
+    background-color: wheat;
+    grid-column:9/10 ;
+    grid-row: 16/18;
+}
+#box53 {
+    background-color: crimson;
+    grid-column:9/10 ;
+    grid-row: 14/16;
+}
+#box54 {
+    background-color: fuchsia;
+    grid-column:2/4 ;
+    grid-row: 14/16;
+}
+#box55 {
+    background-color: darkmagenta;
+    grid-column:4/7 ;
+    grid-row: 14/16;
+}
+#box56 {
+    background-color: crimson;
+    grid-column:7/9 ;
+    grid-row: 14/16;
+}
